@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            
+
+        }
+        nav span{
+            margin-right: 30px;
+        }
+        .main span{
+            margin-right: 200px;
+        }
+        .bi-lightning-fill{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            
+            <span class="main bi bi-lightning-fill" ></span>
+            <span>REPLACER</span>
+        </div>
+        <div>
+            <nav>
+            <span>HOME</span>
+            <span>DEMOS</span>
+            <span>PAGES</span>
+            <span>BLOG</span>
+            <span>DOCS</span>
+            <span>BUY</span>
+            <span class="bi bi-person">LOGIN</span>
+            
+            </nav>
+        </div>
+        
+    </header>
+</body>
+</html>
